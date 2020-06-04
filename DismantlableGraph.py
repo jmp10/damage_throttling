@@ -38,7 +38,7 @@ def is_dismantlable(g):
 
 
 def main():
-    # The first eight graphs in this list are those with dmg_1(G)=2, whereas the remaining thirteen have dmg_1(G)=1.
+    # The first eight graphs in this list are those with dmg_1(G)>1, whereas the remaining thirteen have dmg_1(G)=1.
     graphs_to_check = ["F?ov?", "F?q`o", "FCQb_", "FCRV?", "FCZb_", "FCpV?", "FCpbO", "FCpb_",
                        "F?`f_", "F?ov_", "F?q_w", "F?qdo", "F?re_", "F?reg", "FCQf?", "FCQf_",
                        "FCRbg", "FCXf?", "FCXfO", "FCZbg", "FCpbo"]
